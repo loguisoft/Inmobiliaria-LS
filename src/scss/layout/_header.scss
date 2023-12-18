@@ -13,10 +13,10 @@
         background-size: cover;   // Tome toda el espacio disponible
 
         @include tablet {
-            min-height: 45rem;
+            min-height: 70rem;
         }
         @include tablet {
-            min-height: 45rem;
+            max-height: 70rem;
         }
     }
 }
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    min-height: 70rem;
  
     h1 {
         text-align: left;
