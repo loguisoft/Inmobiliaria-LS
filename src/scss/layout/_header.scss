@@ -15,15 +15,10 @@
         @include tablet {
             min-height: 70rem;
         }
-<<<<<<< HEAD
-        @include tablet {
-            max-height: 70rem;
-=======
         .contenido-header{
             @include tablet {
-                min-height: 15rem;
+                min-height: 70rem;
             }
->>>>>>> a094e6f8c356fc1c36b681e8f48e6ef5c6f7ed42
         }
     }
  
@@ -33,13 +28,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 70rem;
  
     h1 {
         text-align: left; // alinear lado izquierdo
         color: $blanco;
         font-weight: $bold;
         line-height: 2;
-        max-width: 70rem;
+        max-width: 70rem;  //Salto de linea del titulo
+      
     }
 }
