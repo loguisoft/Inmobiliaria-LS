@@ -11,14 +11,22 @@
     &.inicio {
         background-position: center center; //centrar imagen
         background-size: cover;   // Tome toda el espacio disponible
-
+   
         @include tablet {
             min-height: 70rem;
         }
+<<<<<<< HEAD
         @include tablet {
             max-height: 70rem;
+=======
+        .contenido-header{
+            @include tablet {
+                min-height: 15rem;
+            }
+>>>>>>> a094e6f8c356fc1c36b681e8f48e6ef5c6f7ed42
         }
     }
+ 
 }
 
 .contenido-header {  //selecciono al padre de barra y h1 para aplicarle flex y grid de padre a hijo
@@ -28,7 +36,7 @@
     min-height: 70rem;
  
     h1 {
-        text-align: left;
+        text-align: left; // alinear lado izquierdo
         color: $blanco;
         font-weight: $bold;
         line-height: 2;
